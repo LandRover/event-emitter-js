@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LandRover/eventjs.git"
+    "url": "https://github.com/LandRover/event-emitter-js.git"
   },
   "bugs": {
-    "url": "https://github.com/LandRover/eventjs/issues"
+    "url": "https://github.com/LandRover/event-emitter-js/issues"
   },
   "scripts": {
     "test": "mocha *.spec.js"
