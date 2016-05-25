@@ -1,5 +1,5 @@
 {
-  "name": "eventjs",
+  "name": "event-emitter-js",
   "version": "1.0.0",
   "description": "",
   "main": "event.js",
