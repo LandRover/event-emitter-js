@@ -24,7 +24,7 @@
  */
 class Event {
     /**
-     * @constructor
+     * Initates the object with an empty object to store the active subscriptions
      */
     constructor() {
         this._subscriptions = {};
@@ -34,7 +34,6 @@ class Event {
     /**
      * Attach a callback to an EventName
      *
-     * @function
      * @param {*} name - String/Array or event names to bind to
      * @param {Function} callback - Action that will be executed when even is fired.
      * @param {Object} context - The context to run the callback at.
@@ -76,7 +75,6 @@ class Event {
     /**
      * Attach a callback to an name, but once only. Will disapear after first execution.
      *
-     * @function
      * @param {*} name - String/Array or event names to bind to
      * @param {Function} callback - Action that will be executed when even is fired.
      * @param {Object} context - The context to run the callback at.
@@ -98,7 +96,6 @@ class Event {
     /**
      * Notify subscriptions by calling their name
      *
-     * @function
      * @param {string} name - of the even to fire
      * @param {Object} params - params to distribute to the callbacks
      */
@@ -118,7 +115,6 @@ class Event {
      * Used mostly internally.. but not only. A diffrent ".off" is binded when you ".on" and a referance to this ".off"
      * is set.
      *
-     * @function
      * @param {string} name - String or event names to bind to
      * @param {Function} callback - Action that will be executed when even is fired.
      * @param {Object} context - The context to run the callback at.
@@ -149,7 +145,6 @@ class Event {
     /**
      * Removes all the subscriptions by reseting the queue.
      *
-     * @function
      * @returns {Object} this - an instance of the current running Event object.
      */
     removeAllSubscriptions() {
