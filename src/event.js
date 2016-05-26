@@ -1,5 +1,3 @@
-//import 'core-js/shim';
-
 /**
  * Event based module, publish / subscribe with hierarchical events and notifications.
  *
